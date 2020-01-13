@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-aws-s3signature",
+  "version": "1.0.0",
+  "description": "Example for retrieving a signed url via AWS for s3 file uploads.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.601.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
