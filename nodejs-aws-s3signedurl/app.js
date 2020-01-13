@@ -32,7 +32,7 @@ app.get('/get-signed-url', async (req, res) => {
     const options = {
         signatureVersion: 'v4',
         region: process.env.S3_REGION,
-        endpoint: new aws.Endpoint('elasticbeanstalk-us-west-2-857872516664.s3-accelerate.amazonaws.com'), 
+        endpoint: new aws.Endpoint(process.env.S3_BUCKET + '.s3-accelerate.amazonaws.com'), 
         useAccelerateEndpoint: true
     };
 
