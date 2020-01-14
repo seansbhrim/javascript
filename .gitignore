@@ -1,2 +1,4 @@
 nodejs-aws-s3signedurl/node_modules
 nodejs-aws-s3signedurl/.env
+nodejs-aws-s3putobject/node_modules
+nodejs-aws-s3putobject/.env
