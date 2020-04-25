@@ -1,5 +1,3 @@
-console.log('Hello World.');
-
 initiateUpload = () => {
     const files = document.getElementById('input-file').files;
     console.log(files);
@@ -12,6 +10,7 @@ initiateUpload = () => {
     }
 
 }
+
 
 getSignedURL = (file) => {
     const xhr = new XMLHttpRequest();
